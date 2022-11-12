@@ -1,4 +1,5 @@
 import java.lang.*;
+
 public class Sort extends Thread
 {   
     int start, end;
@@ -11,7 +12,7 @@ public class Sort extends Thread
     }
 
     public void run()
-    {
+    {   
         sort(this.arr, this.start, this.end);
     }
 

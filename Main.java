@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class Main
 {   
-    private void print(int[] arr)
+    private static void print(int[] arr)
     {
         for(int i = 0; i < arr.length; i++)
         {
