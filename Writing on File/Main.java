@@ -10,8 +10,15 @@ public class Main
         newFile.start();
 
         Scanner sc = new Scanner(System.in);
-        sc.nextLine();
-        Main.stop = true;
+        while(true)
+        {   
+            System.out.print("Enter exit : ");
+            if((sc.nextLine().toLowerCase()).equals("exit") == true)
+            {
+                Main.stop = true;
+                break;
+            }
+        }
         return;
     }
 }
